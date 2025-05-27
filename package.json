@@ -1,14 +1,27 @@
 {
-  "name": "teste-ia",
+  "name": "youtube-quiz-generator",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "API that extracts the transcript of a YouTube video and automatically generates an educational quiz using the OpenAI API.",
+  "main": "dist/src/index.js",
   "license": "MIT",
+  "author": "Daniel Vinicius",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src",
     "build": "tsc",
     "start": "node dist/src",
     "test": "jest"
   },
+  "keywords": [
+    "quiz",
+    "youtube",
+    "openai",
+    "typescript",
+    "overnight-js",
+    "jest",
+    "api",
+    "ai",
+    "clean architecture"
+  ],
   "dependencies": {
     "@overnightjs/core": "^1.7.6",
     "dotenv": "^16.5.0",

@@ -1,10 +1,10 @@
-# 🎯 YouTube Quiz Generator
+## 🎯 YouTube Quiz Generator
 
 API desenvolvida em Node.js + TypeScript que extrai a transcrição de um vídeo do YouTube e gera automaticamente um quiz educacional utilizando a API da OpenAI.
 
 <br>
 
-# 📦 Tecnologias Utilizadas
+## 📦 Tecnologias Utilizadas
 
 - TypeScript
 - Express
@@ -16,7 +16,7 @@ API desenvolvida em Node.js + TypeScript que extrai a transcrição de um vídeo
 
 <br>
 
-# 🏛️ Estrutura de Pastas (Clean Architecture)
+## 🏛️ Estrutura de Pastas (Clean Architecture)
 
 ```pgsql
 src/
@@ -54,7 +54,7 @@ src/
 
 <br>
 
-# 🚀 Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 
 1️⃣ Clone o repositório
 
@@ -97,7 +97,7 @@ yarn start
 
 <br>
 
-# 🛠️ Endpoints
+## 🛠️ Endpoints
 
 ✅ GET /quiz
 <br><br>
@@ -128,7 +128,7 @@ Resposta (200):
 
 <br>
 
-# ⚙️ Scripts Disponíveis
+## ⚙️ Scripts Disponíveis
 
 | Script     | Descrição                                      |
 | ---------- | ---------------------------------------------- |
@@ -139,7 +139,7 @@ Resposta (200):
 
 <br>
 
-# 🧪 Testes
+## 🧪 Testes
 
 Os testes unitários da aplicação foram implementados utilizando Jest.
 
@@ -153,7 +153,7 @@ yarn test
 
 <br>
 
-# 🤝 Contribuição
+## 🤝 Contribuição
 
 Fork este repositório.
 
@@ -167,6 +167,6 @@ Abra um Pull Request.
 
 <br>
 
-# 📝 Licença
+## 📝 Licença
 
 Este projeto está licenciado sob a licença MIT.
