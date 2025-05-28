@@ -69,7 +69,7 @@ cd youtube-quiz-generator
 yarn
 ```
 
-3️⃣ Configure as variáveis de ambiente
+3️⃣ Configure as variáveis de ambiente<br>
 Crie um arquivo .env na raiz do projeto com o seguinte conteúdo:
 
 ```bash
