@@ -1,4 +1,5 @@
 import express from "express";
+import cors from 'cors';
 import { Server } from "@overnightjs/core";
 import { GenerateQuizUseCase } from "./application/use-cases/GenerateQuizUseCase";
 import { GetTranscriptUseCase } from "./application/use-cases/GetTranscriptUseCase";
@@ -9,6 +10,7 @@ import { QuizController } from "./presentation/controllers/QuizController";
 export class App extends Server {
   constructor() {
     super();
+    this.app.use(cors())
     this.app.use(express.json());
     this.setupControllers();
   }
